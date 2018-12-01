@@ -42,3 +42,11 @@ probability density functions and fire at the best field.
 $ sbt run
 ```
 
+## Let's play
+There's no GUI right now.
+The best way to play though is to set terminal's size so that you can see all information regarding your turn.
+As soon as you finish your turn, press enter.
+Information about the other player should show off immediately.
+
+
+![]![](resources/Battleship2018Terminal.png)
