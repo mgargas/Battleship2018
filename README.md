@@ -49,4 +49,4 @@ As soon as you finish your turn, press enter.
 Information about the other player should show off immediately.
 
 
-![]![](resources/Battleship2018Terminal.png)
+![](resources/Battleship2018Terminal.png)
