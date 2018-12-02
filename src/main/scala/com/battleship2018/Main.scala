@@ -45,6 +45,7 @@ object Main extends App{
 
   println("FIRING IS STARTING NOW!")
   var gameFinished = false
+  var roundsCounter = 0
   while(!gameFinished){
     player1Mode.logPlayerTurn()
     val player1GameState = player1Mode.getGameState
@@ -62,7 +63,7 @@ object Main extends App{
     println("Press enter to change player...")
     scala.io.StdIn.readLine()
 
-
+    roundsCounter = roundsCounter + 1
     val player1Ships = player1Mode.getGameState.myBoardState.activeShips
     val player2Ships = player2Mode.getGameState.myBoardState.activeShips
 
@@ -80,5 +81,6 @@ object Main extends App{
     }
 
   }
+  println(s"Game finished after $roundsCounter rounds.")
   system.terminate()
 }
